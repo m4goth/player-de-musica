@@ -1,0 +1,37 @@
+/*global css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right,#000000,#220931);
+}
+/*player*/
+.Music-player{
+    width: 400px;
+    height: 490px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#000000,#220931);
+    border-radius: 15px;
+    box-shadow: purple;
+}
+/*imagem do player*/
+.Music-player .image img{
+    width: 400px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 15px;    
+}
+/*musica*/
+audio{
+    width: 100%;
+    outline: none;
+}
